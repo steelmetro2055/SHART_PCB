@@ -1,0 +1,32 @@
+(footprint "GT-U7_ANTENNA" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (fp_text reference "U$6" (at 0 0) (layer "F.SilkS") hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    (tstamp 56bf06d6-c400-4a2a-87c2-ce5fb0c07c9a)
+  )
+  (fp_text value "CUSTOM_GT-U7_ANTENNA" (at 0 0) (layer "F.Fab") hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    (tstamp a98b0c0a-225c-4a71-9550-05ec60d69d04)
+  )
+  (fp_text user "GT-U7 Antenna" (at 13.97 -13.97) (layer "F.SilkS")
+      (effects (font (size 1.63576 1.63576) (thickness 0.14224)))
+    (tstamp 9231ae02-5826-42c0-91e1-a437dc425a8a)
+  )
+  (fp_line (start 0 -27.94) (end 27.94 -27.94)
+    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 61890098-dc44-4675-9216-49677a21e234))
+  (fp_line (start 0 0) (end 0 -27.94)
+    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 0dca7d88-b30d-4037-a443-28b05e281102))
+  (fp_line (start 27.94 -27.94) (end 27.94 0)
+    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 177b5ea8-faaa-484e-97fb-93792f3e50d8))
+  (fp_line (start 27.94 0) (end 0 0)
+    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 464d846f-b4b3-4e3a-8a87-748f109e06af))
+  (fp_poly
+    (pts
+      (xy 0 0)
+      (xy 27.94 0)
+      (xy 27.94 -27.94)
+      (xy 0 -27.94)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.CrtYd") (tstamp 532f757b-6fd2-48a4-b20e-67592eeb8ea3))
+)
